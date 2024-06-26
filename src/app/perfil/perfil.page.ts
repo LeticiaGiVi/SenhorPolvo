@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   templateUrl: './perfil.page.html',
   styleUrls: ['./perfil.page.scss'],
 })
-export class PerfilPage implements OnInit {
+export class PerfilPage {
 
   constructor(public router: Router) {}
 
@@ -28,9 +28,6 @@ export class PerfilPage implements OnInit {
 
   Materias() {
     this.router.navigateByUrl("/materia");
-  }
-
-  ngOnInit() {
   }
 
 }

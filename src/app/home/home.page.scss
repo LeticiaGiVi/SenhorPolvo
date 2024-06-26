@@ -25,3 +25,10 @@
 #container a {
   text-decoration: none;
 }
+.licoes{
+  display: flex;
+  flex-direction: row;
+}
+.licoes ion-icon{
+  width: 100px;
+}

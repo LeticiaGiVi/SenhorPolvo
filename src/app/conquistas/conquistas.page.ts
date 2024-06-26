@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
   templateUrl: './conquistas.page.html',
   styleUrls: ['./conquistas.page.scss'],
 })
-export class ConquistasPage implements OnInit {
+export class ConquistasPage {
 
   constructor(public router: Router) {}
 
@@ -28,7 +28,6 @@ export class ConquistasPage implements OnInit {
   Materias() {
     this.router.navigateByUrl("/materia");
   }
-  ngOnInit() {
-  }
+
 
 }

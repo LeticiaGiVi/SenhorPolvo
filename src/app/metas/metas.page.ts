@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   templateUrl: './metas.page.html',
   styleUrls: ['./metas.page.scss'],
 })
-export class MetasPage implements OnInit {
+export class MetasPage{
 
   constructor(public router: Router) {}
 
@@ -28,9 +28,6 @@ export class MetasPage implements OnInit {
 
   Materias() {
     this.router.navigateByUrl("/materia");
-  }
-
-  ngOnInit() {
   }
 
 }
