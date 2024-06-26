@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Configuracoes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-label>Configuracoes</ion-label>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button (click)="Materias()">
+          <ion-icon name="fa-solid fa-book" class="fa-solid fa-book"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button (click)="Metas()">
+          <ion-icon name="fa-regular fa-font-awesome" class="fa-regular fa-font-awesome"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button (click)="Home()">
+          <ion-icon name="fa-brands fa-octopus-deploy" class="fa-brands fa-octopus-deploy"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button (click)="Configuracoes()">
+          <ion-icon name="fa-solid fa-gear" class="fa-solid fa-gear"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button (click)="Perfil()">
+          <ion-icon name="fa-regular fa-user" class="fa-regular fa-user"></ion-icon>
+        </ion-tab-button>
+
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>
