@@ -1,7 +1,0 @@
-{
-  "name": "SenhorPolvo",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
