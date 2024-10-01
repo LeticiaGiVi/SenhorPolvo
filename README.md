@@ -9,3 +9,7 @@ caso tenha problemas com o HAXM no android studio
 https://youtu.be/CVxFQ8r-xHE?si=_m27kCSONV7MuafS
 
 todo o projeto fica na pagina lib e para testar o app entre no main.dart e selecione o dispositivo para dar o debug
+
+<img src="/imgs/readme1.PNG">
+<img src="/imgs/readme2.PNG">
+<img src="/imgs/readme3.PNG">
